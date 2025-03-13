@@ -1,0 +1,61 @@
+.userButton {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  position: relative;
+}
+
+.userButton img {
+  width: 3.6rem;
+  height: 3.6rem;
+  object-fit: cover;
+  /* border: 100%; */
+}
+
+.userButton .arrow__icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  cursor: pointer;
+}
+
+.userOptions {
+  position: absolute;
+  right: 0;
+  top: 120%;
+  background-color: white;
+  padding: 1.6rem;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.116);
+  z-index: 999;
+}
+
+.userOption {
+  cursor: pointer;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.userOption:hover {
+  background-color: #f1f1f1;
+  color: gray;
+}
+
+.loginLink {
+  font-size: 1.8rem;
+  padding: 1.6rem;
+  border-radius: 3.2rem;
+}
+
+.loginLink:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 475px) {
+  .userButton {
+    display: none;
+  }
+}
