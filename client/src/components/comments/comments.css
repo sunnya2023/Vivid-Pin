@@ -1,0 +1,71 @@
+.comments {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  min-height: 0;
+}
+
+.commentList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  overflow-y: auto;
+}
+
+.comment {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.comment img {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.commentContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.commentUsername {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.commntText {
+  font-size: 1.4rem;
+}
+
+.commentTime {
+  font-size: 1.2rem;
+  color: #a6a6a6;
+}
+.commentForm {
+  background-color: #f1f1f1;
+  border-radius: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem;
+}
+
+.commentForm input {
+  background-color: transparent;
+  font-size: 1.6rem;
+}
+
+.emoji {
+  font-size: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.emojiPicker {
+  position: absolute;
+  bottom: 5rem;
+  right: 0;
+}
