@@ -10,6 +10,9 @@
   --color-white-bg: #f1f1f1;
   --color-gray-100: #e9e9e9;
   --color-gray-200: #efe4e4;
+  --color-gray-300: #dddddd;
+  --color-gray-400: #a6a6a6;
+  --color-green-100: rgb(55, 186, 55);
 }
 
 html {
@@ -29,7 +32,9 @@ a {
 }
 
 input,
-button {
+button,
+textarea,
+select {
   border: none;
   outline: none;
 }

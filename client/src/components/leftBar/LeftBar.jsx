@@ -1,29 +1,30 @@
 import Image from "../Image/Image";
 import "./leftBar.css";
+import { Link } from "react-router";
 
 const LeftBar = () => {
   return (
     <div className="leftBar">
       <div className="menuIcons">
-        <a href="/" className="menuIcon">
+        <Link to="/" className="menuIcon">
           <Image path="/general/logo.png" alt="logo" className="logo" />
-        </a>
-        <a href="/" className="menuIcon">
+        </Link>
+        <Link to="/" className="menuIcon">
           <Image path="/general/home.svg" alt="home" />
-        </a>
-        <a href="/" className="menuIcon">
+        </Link>
+        <Link to="/create" className="menuIcon">
           <Image path="/general/add.svg" alt="new posting" />
-        </a>
-        <a href="/" className="menuIcon">
+        </Link>
+        <Link to="/" className="menuIcon">
           <Image path="/general/alert.svg" alt="logo" />
-        </a>
-        <a href="/" className="menuIcon">
+        </Link>
+        <Link to="/" className="menuIcon">
           <Image path="/general/message.svg" alt="logo" />
-        </a>
+        </Link>
       </div>
-      <a href="/" className="menuIcon">
+      <Link to="/" className="menuIcon">
         <Image path="/general/message.svg" alt="logo" />
-      </a>
+      </Link>
     </div>
   );
 };
