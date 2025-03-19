@@ -7,7 +7,7 @@
 
 .search {
   flex: 1;
-  background-color: #f1f1f1;
+  background-color: var(--color-white-bg);
   border-radius: 1.6rem;
   padding: 1.6rem;
   display: flex;

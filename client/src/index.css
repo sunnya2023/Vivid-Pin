@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-red: #e50829;
+  --color-red-dark: #c1011e;
+  --color-white-bg: #f1f1f1;
+  --color-gray-100: #e9e9e9;
+  --color-gray-200: #efe4e4;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -31,7 +39,7 @@ button {
 }
 
 .btn {
-  background-color: #e50829;
+  background-color: var(--color-red);
   color: white;
   padding: 1.2rem 1.6rem;
   border-radius: 2.4rem;

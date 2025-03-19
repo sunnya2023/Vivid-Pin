@@ -53,5 +53,5 @@
 }
 
 .overlayIcons button:hover {
-  background-color: #efe4e4;
+  background-color: var(--color-gray-200);
 }

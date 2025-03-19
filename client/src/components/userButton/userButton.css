@@ -40,7 +40,7 @@
 }
 
 .userOption:hover {
-  background-color: #f1f1f1;
+  background-color: var(--color-white-bg);
   color: gray;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .loginLink:hover {
-  background-color: #f1f1f1;
+  background-color: var(--color-white-bg);
 }
 
 @media (max-width: 475px) {
