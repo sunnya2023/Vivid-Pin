@@ -1,0 +1,62 @@
+.authPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authContainer {
+  width: 48rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+  padding: 3.2rem;
+  border-radius: 3.2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.authContainer h1 {
+  font-weight: 400;
+}
+
+.authContainer form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.formGroup input {
+  border: 1px solid var(--color-gray-300);
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+}
+
+.authContainer p {
+  font-size: 1.4rem;
+  text-align: center;
+  cursor: pointer;
+  color: var(--color-gray-600);
+}
+
+.authContainer form label {
+  font-size: 1.3rem;
+}
+.error {
+  color: var(--color-red);
+}
+
+@media (max-width: 475px) {
+  .authContainer {
+    width: 35rem;
+  }
+}
